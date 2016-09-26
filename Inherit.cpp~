@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+class Structure
+{
+public:
+int length,breadth;
+Structure(l,b){
+length=l;
+breadth=b;
+}
+void accept(){
+cout<<"Enter the length and breadth";
+cin>>length>>breadth;
+}
+private:
+int area;
+void ar(){
+cout<<"Area is:"<<length*breadth;
+}
+protected:
+int perimeter;
+void peri(){
+cout<<"Perimeter is "<<((length+breadth)*2);
+}
+};
+
+class child:private Structure{
+
+
+
+}
+int main(){
+int a,b;
+
+}
+
+
